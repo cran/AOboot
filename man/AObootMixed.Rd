@@ -38,7 +38,9 @@ AObootMixed(var.within,
   \item{eff.si}{Effect size for the F-tests. \code{pes} reflects partial
   eta-squared, \code{ges} reflects eta-squared.}
   \item{data}{Name of the dataframe. The dataset must be in a wide-format, with
-  one row per participant.}
+  one row per participant. If the original data is available in long format, we
+  advise users to apply the \code{longToWide()} function from the \code{lsr}
+  package to convert data to wide format.}
   \item{silence}{Logical. If FALSE, progress of the bootstrapping procedure will
   be displayed.}
   \item{n.sim}{Number of bootstrap samples to be drawn.}

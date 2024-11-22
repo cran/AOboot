@@ -578,12 +578,16 @@ AObootMixed <- function(
                                             length(names.b1) + 1):
                                            ((3 * length(levels.w1)) *
                                               length(names.b1))], n.round)
-  dat.ph3$`d LL` <- round(out.ph3$LL[((2 * length(levels.w1)) * length(names.w1)
-                                      + 1):((3 * length(levels.w1)) *
-                                              length(names.w1))], n.round)
-  dat.ph3$`d UL` <- round(out.ph3$UL[((2 * length(levels.w1)) * length(names.w1)
-                                      + 1):((3 * length(levels.w1)) *
-                                              length(names.w1))], n.round)
+  dat.ph3$`d LL` <- round(out.ph3$LL[((2 * length(levels.w1)) *
+                                        length(names.b1) + 1):
+                                       ((3 * length(levels.w1)) *
+                                          length(names.b1))],
+                          n.round)
+  dat.ph3$`d UL` <- round(out.ph3$UL[((2 * length(levels.w1)) *
+                                        length(names.b1) + 1):
+                                       ((3 * length(levels.w1)) *
+                                          length(names.b1))],
+                          n.round)
   dat.ph3$`est mean` <- round(out.ph3$mean[1:(length(levels.w1) *
                                                 length(names.b1))], n.round)
   dat.ph3$`est LL` <- round(out.ph3$LL[1:(length(levels.w1) *

@@ -1,12 +1,12 @@
-4ddfd206d7a2cb4456e0a4dc1eaa27e7 *DESCRIPTION
+ff544e0fd0f50855af709fa876e2b26c *DESCRIPTION
 e6896bdd68121829301ee3ab2f117d52 *NAMESPACE
 4e5d67607704c0467259149076077fdb *R/AOboot.one.R
 406b485976b3ae4ffb1db72d3861b93e *R/AOboot.two.R
 93a7171d96fc623e8e4d5f08b6f7c577 *R/AObootBetween.R
-7d2bca3a8f21ff1cac7403923e3bb89e *R/AObootMixed.R
+db5e5ba3209506e33d4a599607158dc6 *R/AObootMixed.R
 ad7061b83b8675b73756beb94790a385 *R/AObootWithin.R
 77202a0332be8f9a1f004a92bd11abf3 *man/AOboot.one.Rd
 a771df4242c16a5a1cb89d0914d53157 *man/AOboot.two.Rd
 76a698b45f3e9f3e20907a821b4ad9a8 *man/AObootBetween.Rd
-7e10da409915aa85e53660946c69afc6 *man/AObootMixed.Rd
-4a7910e01d472f9a9602428b7b6a2dd2 *man/AObootWithin.Rd
+aeaf180bb8b9b5d5aadc5e47728e5f34 *man/AObootMixed.Rd
+4d5bd7556d0f867b924e2c56817864ea *man/AObootWithin.Rd
