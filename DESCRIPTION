@@ -1,9 +1,9 @@
 Package: AOboot
 Type: Package
 Title: Bootstrapping in Different One-Way and Two-Way ANOVA
-Version: 0.1.1
+Version: 0.1.2
 Depends: R (>= 4.3.0), afex, emmeans, lsr, methods, carData
-Date: 2024-11-22
+Date: 2025-03-21
 Authors@R: c(person(given = "Lisa-Marie",
                     family = "Segbert",
                     role = "aut"),
@@ -16,9 +16,9 @@ License: GPL (>= 2)
 Encoding: UTF-8
 RoxygenNote: 7.3.2
 NeedsCompilation: no
-Packaged: 2024-11-22 11:34:21 UTC; christianblotner
+Packaged: 2025-03-25 12:53:30 UTC; christianblotner
 Author: Lisa-Marie Segbert [aut],
   Christian Blötner [aut, cre]
 Maintainer: Christian Blötner <c.bloetner@gmail.com>
 Repository: CRAN
-Date/Publication: 2024-11-22 12:00:05 UTC
+Date/Publication: 2025-03-25 18:00:02 UTC

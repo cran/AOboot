@@ -160,7 +160,7 @@ AObootMixed <- function(
     ## Control for all cells
     boots.con <- table(data.BS$factor1)
 
-    if (any(boots.con == 0) == TRUE) {
+    if (any(boots.con == 0) | length(boots.con) < length(levels.b1)) {
       next
     }
 
